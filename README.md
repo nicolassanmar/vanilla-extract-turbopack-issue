@@ -1,4 +1,17 @@
+Running the project with `pnpm next dev --turbo` will fail to build the app with vanilla extract:
+
+
+![image](https://github.com/nicolassanmar/vanilla-extract-turbopack-issue/assets/57573579/f49a036c-ba9c-4684-8526-7ebae5ab181a)
+![image](https://github.com/nicolassanmar/vanilla-extract-turbopack-issue/assets/57573579/96c30fb1-d60a-4cf3-a02c-2d57d3b06869)
+
+
+Running the project with `pnpm next dev` will build it succesfully:
+![image](https://github.com/nicolassanmar/vanilla-extract-turbopack-issue/assets/57573579/666bd4f6-c37d-4dbf-aedc-2a65454d4ee8)
+
+
+----
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Getting Started
 
